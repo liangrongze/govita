@@ -38,6 +38,10 @@ get_header(); ?>
 		</div>
 		<div id="slides" data-stellar-ratio="0.4">
 			<div class="slides-container" > <img src="<?php echo get_template_directory_uri(); ?>/images/ad-1.jpg" alt=""> <img src="<?php echo get_template_directory_uri(); ?>/images/ad-2.jpg" alt=""> <img src="<?php echo get_template_directory_uri(); ?>/images/ad-3.jpg" alt=""> </div>
+			<nav class="slides-navigation">
+			    <a href="#" class="next">Next</a>
+			    <a href="#" class="prev">Previous</a>
+			  </nav>
 		</div>
 	</section>
 	<!-- INTRO END --> 
@@ -120,8 +124,8 @@ Haymarket 200</div></li>
 				</div>
 				<div class="col-md-5">
 					<div>
-					<img src="<?php echo get_template_directory_uri();?>/images/map.jpg">
-				</div>
+						<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://ditu.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Go+Vita+Haymarket+Level+1+(next+to+IGA+supermarket)+Market+City+Shopping+Centre+9-13+Hay+Street+Haymarket+200&amp;aq=&amp;sll=35.86166,104.195397&amp;sspn=53.748632,93.076172&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;t=m&amp;ll=-33.8798,151.203442&amp;spn=0.006295,0.007583&amp;output=embed"></iframe>
+					</div>
 				</div>
 				<div class="col-md-3">
 					<h4>关注我们</h4>

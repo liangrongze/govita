@@ -33,7 +33,7 @@
 
 <body>
 	<header id="header">
-		<div class="container"> <a href="http://www.vitaminstore.com.au/landingpage/" class="logo"> <img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="澳洲最大的保健品连锁店" /> </a>
+		<div class="container"> <a href="" class="logo"> <img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="澳洲最大的保健品连锁店" /> </a>
 			<h1>澳洲最大的保健品连锁店</h1>
 		</div>
 	</header>
