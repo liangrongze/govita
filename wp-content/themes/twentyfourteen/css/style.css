@@ -144,7 +144,7 @@ width: 40%;}
 .modal-content .m-dt h4{text-align: left;margin-left: 80px;margin-top: 45px;}
 .modal-content .contact_data_list li{margin-left: 44px;clear: both}
 .modal-content .contact_data_list i{width:15%;}
-.modal-content .contact_data_list div{width:85%;}
+.modal-content .contact_data_list div{width:80%;}
 
 .modal-content .soc_nav{float:none;}
 
@@ -436,14 +436,14 @@ a.login_btn:hover { border: 1px solid rgba(255,255,255,1); }
 	display: block;
 	z-index: 1;
 	overflow: hidden;
-	background: #000;
+	background: #fff;
 	padding: 0;
 	margin: 0;
 	color: #FFF;
 }
-
+#intro .tsliders{position:absolute;top:80px;}
 #intro .container {
-	margin: 220px auto 250px auto;
+	margin: 200px auto 180px auto;
 	position: relative;
 	z-index: 1;
 }
@@ -890,7 +890,7 @@ section { padding: 80px 0; }
 	display: block;
 	padding: 5px 0;
 }
-
+#intro .container { position: absolute;top: 160px;margin: 120px 0 0 0; }
 #contact .row > div,
  #contact .row > div:last-child,
  #contact .row > div:first-child {
@@ -902,6 +902,9 @@ section { padding: 80px 0; }
 }
 
 #contact .row > div:first-child { border-top: none; }
+.flex-direction-nav .flex-prev{left:0;}
+.flex-control-nav,.flex-control-paging {display:none;}
+#intro .container{margin-top:85px;}
 }
 @media (max-width: 767px) {
 
@@ -909,9 +912,10 @@ body { text-align: center; }
 
 #header .logo img{max-width:100%;float:none;}
 #header h1{margin-top:10px;float:none;}
+#intro {height:900px;}
 #intro .slogan { margin: 0; }
 
-#intro .container { margin: 170px 0 100px 0; }
+#intro .container { position: absolute;top: 320px;margin: 120px 0 0 0; }
 
 #intro .slogan p { margin: 60px 0; }
 
@@ -930,16 +934,21 @@ ul.triangle_list li {
 }
 
 ul.triangle_list li:before { display: none; }
-.flexslider .slides img{height:auto;}
+.msliders .slides img{height:auto;}
 .flex-control-nav{display:none;}
 #contact .row > div{clear:both; border:0;}
 .slides-navigation {display:none;}
+.flex-direction-nav a{top:38%;}
 }
 @media (max-width: 400px) {
 
 header { margin-top: 20px; }
 
-#intro .container { margin: 120px 0 100px 0; }
+
+#intro {height:700px;}
+#intro .slogan { margin: 0; }
+
+#intro .container { position: absolute;top: 160px;margin: 120px 0 0 0; }
 }
 
 
