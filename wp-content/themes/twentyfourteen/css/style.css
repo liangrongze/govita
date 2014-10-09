@@ -890,7 +890,7 @@ section { padding: 80px 0; }
 	display: block;
 	padding: 5px 0;
 }
-#intro .container { position: absolute;top: 160px;margin: 120px 0 0 0; }
+
 #contact .row > div,
  #contact .row > div:last-child,
  #contact .row > div:first-child {
@@ -904,7 +904,7 @@ section { padding: 80px 0; }
 #contact .row > div:first-child { border-top: none; }
 .flex-direction-nav .flex-prev{left:0;}
 .flex-control-nav,.flex-control-paging {display:none;}
-#intro .container{margin-top:85px;}
+
 }
 @media (max-width: 767px) {
 
@@ -912,15 +912,14 @@ body { text-align: center; }
 
 #header .logo img{max-width:100%;float:none;}
 #header h1{margin-top:10px;float:none;}
-#intro {height:900px;}
 #intro .slogan { margin: 0; }
 
-#intro .container { position: absolute;top: 320px;margin: 120px 0 0 0; }
+#intro .container { margin: 150px 0 10px 0; }
 
 #intro .slogan p { margin: 60px 0; }
 
 #services .service { padding: 0 70px 60px 70px; }
-
+#intro .tsliders{top:90px;position:relative;}
 #services .service i {
 	position: relative;
 	display: block;
@@ -938,17 +937,12 @@ ul.triangle_list li:before { display: none; }
 .flex-control-nav{display:none;}
 #contact .row > div{clear:both; border:0;}
 .slides-navigation {display:none;}
-.flex-direction-nav a{top:38%;}
 }
 @media (max-width: 400px) {
 
 header { margin-top: 20px; }
 
-
-#intro {height:700px;}
-#intro .slogan { margin: 0; }
-
-#intro .container { position: absolute;top: 160px;margin: 120px 0 0 0; }
+#intro .container { margin: 150px 0 10px 0; }
 }
 
 

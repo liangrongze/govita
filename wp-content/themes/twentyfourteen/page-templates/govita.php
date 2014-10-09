@@ -10,26 +10,6 @@
 get_header(); ?>
 
 <section id="intro">
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-lg-offset-8 col-md-5 col-sm-6 vform">
-		
-					<div class="title wow flipInX" data-wow-duration="0.6s">
-						<img src="<?php echo get_template_directory_uri();?>/images/title.jpg">
-					</div>
-					<?php
-						// Start the Loop.
-						while ( have_posts() ) : the_post();
-
-							// Include the page content template.
-							the_content();
-						endwhile;
-					?>
-		
-			</div>
-		</div>
-	</div>
 	<div class="flexslider span12 tsliders">
 		<ul class="slides">
 			<li><img src="<?php echo get_template_directory_uri(); ?>/images/ad-1.jpg"></li>
@@ -37,7 +17,27 @@ get_header(); ?>
 			<li><img src="<?php echo get_template_directory_uri(); ?>/images/ad-3.jpg"></li>
 		</ul>
 	</div>
-		
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-lg-4 col-lg-offset-8 col-md-5 col-sm-6 vform">
+			
+						<div class="title wow flipInX" data-wow-duration="0.6s">
+							<img src="<?php echo get_template_directory_uri();?>/images/title.jpg">
+						</div>
+						<?php
+							// Start the Loop.
+							while ( have_posts() ) : the_post();
+
+								// Include the page content template.
+								the_content();
+							endwhile;
+						?>
+			
+				</div>
+			</div>
+		</div>
 		
 		
 	</section>
