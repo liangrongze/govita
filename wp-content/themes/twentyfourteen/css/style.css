@@ -441,7 +441,7 @@ a.login_btn:hover { border: 1px solid rgba(255,255,255,1); }
 	margin: 0;
 	color: #FFF;
 }
-#intro .tsliders{position:absolute;top:80px;}
+#intro .tsliders{position:absolute;top:80px;width:100%;}
 #intro .container {
 	margin: 200px auto 180px auto;
 	position: relative;
@@ -554,7 +554,7 @@ a.login_btn:hover { border: 1px solid rgba(255,255,255,1); }
 	width:100%;
 }
 #services .container img{
-	max-width:100%;
+	width:100%;
 }
 #services .service { padding: 0; }
 
