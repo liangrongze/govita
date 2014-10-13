@@ -140,7 +140,7 @@ Haymarket 200</div></li>
 	<footer id="footer">
 		<div class="container"> <a href="http://www.vitaminstore.com.au/landingpage/" class="logo"> <img src="<?php echo get_template_directory_uri();?>/images/logo-2.png" alt="Best start for your business"  /> </a>
 			<p>Your Health Shop</p>
-			<p>&copy; 2014 POINTER <br>
+			<p>&copy; 2014 GOVITA <br>
 				Designed by Mywishdesign.com</p>
 		</div>
 	</footer>

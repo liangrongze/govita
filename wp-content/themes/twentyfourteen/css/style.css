@@ -477,6 +477,10 @@ a.login_btn:hover { border: 1px solid rgba(255,255,255,1); }
 	opacity: 0.9;
 }
 
+.vform{
+	width:33.33333333%%;
+	margin-left:66.66%;
+}
 .vform .title {
 	font-size: 25px;
 	text-transform: uppercase;
@@ -581,21 +585,24 @@ a.login_btn:hover { border: 1px solid rgba(255,255,255,1); }
 
 
 #features {
+	padding:100px 0;
 	background-color: #f8f8f8;
 	overflow: hidden;
 	position: relative;
-	height: 599px;
+/*	height: 599px;*/
 	overflow: hidden;
 }
 
-#feature_img {
+#features #feature_img {
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: 50%;
 	width: 50%;
 	height: 100%;
 	background-size: cover;
 }
+#features .container{width:100%;text-align:center;margin-top: 30px;}
+#features .container .about{width:50%;}
 
 .about h3{color: #e52536;
 font-size: 42px;
@@ -869,8 +876,13 @@ footer .logo img {
 
 @media (max-width: 992px) {
 header {position: relative;}
+#header .container{text-align: center;}
+#header .logo{float:none;}
+#header h1{float:none;}
 section { padding: 80px 0; }
-
+#intro .container{margin:0;width: 100%;}
+#intro .tsliders{position:relative;top:0;}
+.vform{width:80%;margin-left:10%;}
 #services { padding: 30px 0 0 0; }
 
 #features { padding: 300px 0 80px 0; }
@@ -878,6 +890,11 @@ section { padding: 80px 0; }
 	padding:0;
 	height:auto;
 }
+#features #feature_img{position: relative;
+width: 100%;
+left: 0;
+}
+#features .container .about{width:100%;}
 #feature_img {
 	position: relative;
 	top: 0px;
@@ -895,13 +912,15 @@ section { padding: 80px 0; }
 
 
 #contact .row > div,
- #contact .row > div:last-child,
- #contact .row > div:first-child {
+#contact .row > div:last-child,
+#contact .row > div:first-child {
 	border-left: none;
 	border-top: 1px solid #eee;
 	padding: 50px 15px;
 	display: block;
 	float: none;
+	clear: both;
+	text-align: center;
 }
 
 #contact .row > div:first-child { border-top: none; }
@@ -910,72 +929,13 @@ section { padding: 80px 0; }
 a.round_btn_dark{display:none;}
 .flex-direction-nav a{top:40%;}
 .container .about{width:100%;text-align:center;}
-}
-@media (max-width: 767px) {
 
-body { text-align: center; }
-header {position: relative;}
-#header .logo img{max-width:100%;float:none;}
-#header h1{margin-top:10px;float:none;}
-#intro .slogan { margin: 0; }
-
-#intro .container { margin: 10px 0 10px 0; }
-
-#intro .slogan p { margin: 60px 0; }
-
-#services .service { padding: 0 70px 60px 70px; }
-#intro .tsliders{position:relative;top:0;}
-#features{
-	padding:0;
-	height:auto;
-}
-#feature_img {
-	position: relative;
-	top: 0px;
-	left: 0;
-	width: 100%;
-	background-size: cover;
-}
-#services .service i {
-	position: relative;
-	display: block;
-	margin-bottom: 20px;
-}
-
-ul.triangle_list li {
-	margin-left: 0;
-	border-bottom: 1px solid #eee;
-	padding-bottom: 20px;
-}
-
-ul.triangle_list li:before { display: none; }
 .msliders .slides img{height:auto;}
-.flex-control-nav{display:none;}
-#contact .row > div{clear:both; border:0;}
-.slides-navigation {display:none;}
-a.round_btn_dark{display:none;}
-.container .about{width:100%;text-align:center;}
+ul.contact_data_list li{isplay: block;
+width: 70%;
+margin-left: 30%;}
 }
-@media (max-width: 400px) {
-header {position: relative;}
-#intro .tsliders{position:relative;top:0;}
-#intro .container { margin: 10px 0 10px 0; }
-#features{
-	padding:0;
-	height:auto;
-}
-#feature_img {
-	position: relative;
-	top: 0px;
-	left: 0;
-	width: 100%;
-	background-size: cover;
-}
-a.round_btn_dark{display:none;}
 
-.container .about{width:100%;text-align:center;}
-
-}
 
 
 .wpcf7-display-none{display:none !important;}
@@ -997,34 +957,4 @@ footer .logo img { content: url("../images/logo_dark@2x.png"); }
 	background-image: url(../images/cross@2x.png);
 	background-size: 20px 20px;
 }
-}
-
-@media (min-width: 768px){
-header {position: relative;}
-#intro .tsliders{position:relative;top:0;}
-.modal-dialog {
-width: 900px;
-margin: 0 auto;
-}
-#intro .container{
-	margin: 10px auto 10px auto;
-}
-.vform{
-	width: 83.33333333%;
-	left:10%;
-}
-
-#features{
-	padding:0;
-	height:auto;
-}
-#feature_img {
-	position: relative;
-	top: 0px;
-	left: 0;
-	width: 100%;
-	background-size: cover;
-}
-a.round_btn_dark{display:none;}
-.container .about{width:100%;text-align:center;}
 }

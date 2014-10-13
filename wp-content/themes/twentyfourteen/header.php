@@ -28,16 +28,16 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 		<?php if($_SERVER['HTTP_HOST'] == 'local.govita.com'):?>
-	<link rel='stylesheet' id='s5-css'  href='/wp-content/themes/twentyfourteen/css/flexslider.css?v=105' type='text/css' media='all' />
+	<link rel='stylesheet' id='s5-css'  href='/wp-content/themes/twentyfourteen/css/flexslider.css?v=106' type='text/css' media='all' />
 <?php else:?>
-		<link rel='stylesheet' id='s5-css'  href='http://www.vitaminstore.com.au/landingpage/wp-content/themes/twentyfourteen/css/flexslider.css?v=101' type='text/css' media='all' />
+		<link rel='stylesheet' id='s5-css'  href='http://www.vitaminstore.com.au/landingpage/wp-content/themes/twentyfourteen/css/flexslider.css?v=105' type='text/css' media='all' />
 <?php endif;?>
 	<?php wp_head(); ?>
 </head>
 
 <body>
 	<header id="header">
-		<div class="container"> <a href="" class="logo"> <img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="澳洲最大的保健品连锁店" /> </a>
+		<div class="container"> <a href="http://www.vitaminstore.com.au/landingpage/" class="logo"> <img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="澳洲最大的保健品连锁店" /> </a>
 			<h1>澳洲最大的保健品连锁店</h1>
 		</div>
 	</header>
