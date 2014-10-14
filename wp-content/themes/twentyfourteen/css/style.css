@@ -326,7 +326,6 @@ rotation {  0% {
 
 
 header {
-	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -878,15 +877,18 @@ footer .logo img {
 ----------------------------------------------------------------------------------------*/
 @media(max-width:2560px){
 	#features .container{top:25%;}
+		#intro .container{top:27%;}
 }
 
 @media(max-width:1920px){
 	#features .container{top:20%;}
+		#intro .container{top:24%;}
 }
 
 
 @media(max-width:1680px){
 	#features .container{top:13%;}
+		#intro .container{top:15%;}
 }
 
 
@@ -898,6 +900,7 @@ footer .logo img {
 	ul.contact_data_list li{isplay: block;
 	width: 70%;
 	margin-left: 30%;}
+	#intro .container{top:10%;}
 }
 
 
